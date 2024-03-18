@@ -37,17 +37,14 @@ oneStep([Clause | Rest_conjunction], [ [F1, F2 | Rest_Clause] | Rest_conjunction
     % looking for a beta formula in the clause
     remove(BetaFormula, Clause, Rest_Clause),    
     components(BetaFormula, F1, F2, beta).
-
 oneStep([Clause | Rest_conjunction], [ [F | Rest_Clause] | Rest_conjunction]) :-
     % looking for a unary formula in the clause
     remove(UnaryFormula, Clause, Rest_Clause),    
     components(UnaryFormula, F, _, unary).
-
 oneStep([Clause | Rest_conjunction], [ [F1 | Rest_Clause], [F2 | Rest_Clause] | Rest_conjunction]) :-
     % looking for an alpha formula in the clause
     remove(AlphaFormula, Clause, Rest_Clause),   
     components(AlphaFormula, F1, F2, alpha).
-
 oneStep([F | Reste], [F | New_Rest]) :-
     % nothing left to do on F
     oneStep(Reste, New_Rest).
@@ -60,6 +57,7 @@ oneStep([F | Reste], [F | New_Rest]) :-
 remove(X, L, NL) :-
     member(X,L),	% so that remove fails if X absent from L
     remove1(X, L, NL).
+
 remove1(X, L, L) :-
     not(member(X,L)).
 remove1(X, L, NL) :-
