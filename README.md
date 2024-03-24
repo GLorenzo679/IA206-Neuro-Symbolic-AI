@@ -7,3 +7,5 @@ My solutions for "IA206-Neuro-Symbolic AI" laboratories, a.y. 2023-2024 - Télé
 - [TP1 - Introduction to Prolog](TP1)
 - [TP2 - Accumulation, Knowledge representation, Semantic networks, Ontologies, Description logics](TP2)
 - [TP3 - Propositional Logic](TP3)
+- [TP4 - Predicate Logic](TP4)
+- [TP5 - Symbolic machine learning](TP5)
