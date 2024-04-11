@@ -10,7 +10,7 @@ My solutions for "IA206-Neuro-Symbolic AI" laboratories and past exams, a.y. 202
 - [TP4 - Predicate Logic](TP4)
 - [TP5 - Symbolic machine learning](TP5)
 - [TP6 - Problog](TP6)
-- [TP7 - Statistical Machine Learning in Problog ](TP7)
+- [TP7 - Statistical Machine Learning in Problog](TP7)
 
 ## Exam:
 
